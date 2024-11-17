@@ -1,0 +1,84 @@
+{
+  "budget": "low",
+  "destination": "Paris",
+  "duration": 4,
+  "endDate": "2024-11-05",
+  "generatedItinerary": [
+    {
+      "activities": {
+        "afternoon": {
+          "description": "Visit the Louvre Museum, focusing on key works like the Mona Lisa and Venus de Milo to avoid museum fatigue.",
+          "location": "Louvre Museum"
+        },
+        "evening": {
+          "description": "Enjoy a picnic dinner along the Seine River, taking in the beautiful city views.",
+          "location": "Seine River"
+        },
+        "morning": {
+          "description": "Start your day with a visit to the Eiffel Tower. Pre-book your tickets to skip the long queues.",
+          "location": "Eiffel Tower"
+        },
+        "night": {
+          "description": "Experience a traditional French dinner at a local bistro in the Latin Quarter.",
+          "location": "Latin Quarter"
+        }
+      },
+      "day": 1,
+      "hotel": "HotelF1 Paris"
+    },
+    {
+      "activities": {
+        "afternoon": {
+          "description": "Explore the charming streets of Montmartre, visiting the Sacré-Cœur Basilica and Place du Tertre.",
+          "location": "Montmartre"
+        },
+        "evening": {
+          "description": "Enjoy a delicious and affordable crepe from a street vendor.",
+          "location": "Street vendor in Montmartre"
+        },
+        "morning": {
+          "description": "Visit the Musée d'Orsay, known for its Impressionist and Post-Impressionist masterpieces.",
+          "location": "Musée d'Orsay"
+        },
+        "night": { "description": "Return to the hotel and relax.", "location": "HotelF1 Paris" }
+      },
+      "day": 2,
+      "hotel": "HotelF1 Paris"
+    },
+    {
+      "activities": {
+        "afternoon": {
+          "description": "Take a leisurely walk along the Seine River, admiring the bridges and architecture.",
+          "location": "Seine River"
+        },
+        "evening": {
+          "description": "Indulge in a final French dinner, trying a traditional dish like Boeuf Bourguignon.",
+          "location": "Traditional French restaurant"
+        },
+        "morning": {
+          "description": "Visit the Palace of Versailles, exploring the palace and gardens.",
+          "location": "Palace of Versailles"
+        },
+        "night": { "description": "Relax at the hotel, preparing for departure.", "location": "HotelF1 Paris" }
+      },
+      "day": 3,
+      "hotel": "HotelF1 Paris"
+    },
+    {
+      "activities": {
+        "afternoon": { "description": "Depart from Paris", "location": "Charles de Gaulle Airport" },
+        "evening": { "description": "N/A", "location": "N/A" },
+        "morning": {
+          "description": "Visit a local market and enjoy some final Parisian pastries.",
+          "location": "Local Market"
+        },
+        "night": { "description": "N/A", "location": "N/A" }
+      },
+      "day": 4,
+      "hotel": "N/A"
+    }
+  ],
+  "numberOfPeople": 2,
+  "preferences": ["culture", "art", "food"],
+  "startDate": "2024-11-01"
+}
