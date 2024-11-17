@@ -1,4 +1,4 @@
-import { addTrip, getAllTrips } from '@/services/trip.service';
+import { addTrip } from '@/services/trip.service';
 
 import {
   GoogleGenerativeAI,

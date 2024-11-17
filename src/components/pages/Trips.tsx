@@ -157,36 +157,4 @@ function Trips() {
   );
 }
 
-const DeleteButton = ({
-  tripId,
-  trip,
-  handleTripDelete,
-}: {
-  tripId: string;
-  trip: TripData;
-  handleTripDelete: (tripId: string) => void;
-}) => {
-  return (
-    <AlertDialog>
-      <AlertDialogTrigger asChild>
-        <Button variant="ghost" size="icon" onClick={(e) => e.stopPropagation()}>
-          <Trash2 className="h-5 w-5 text-red-500" />
-        </Button>
-      </AlertDialogTrigger>
-      <AlertDialogContent>
-        <AlertDialogHeader>
-          <AlertDialogTitle>Are you sure you want to delete this trip?</AlertDialogTitle>
-          <AlertDialogDescription>
-            This action cannot be undone. This will permanently delete your trip to {trip.destination}.
-          </AlertDialogDescription>
-        </AlertDialogHeader>
-        <AlertDialogFooter>
-          <AlertDialogCancel>Cancel</AlertDialogCancel>
-          <AlertDialogAction onClick={() => handleTripDelete(tripId)}>Delete</AlertDialogAction>
-        </AlertDialogFooter>
-      </AlertDialogContent>
-    </AlertDialog>
-  );
-};
-
 export default Trips;
