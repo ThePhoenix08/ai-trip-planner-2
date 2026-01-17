@@ -27,7 +27,7 @@ const Register: React.FC = () => {
       const { displayName, email, password } = formData;
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       await updateProfile(userCredential.user, { displayName });
-      console.log('User registered successfully');
+      // console.log('User registered successfully');
       navigate('/app/planner');
     } catch (error) {
       console.error('Error registering user:', error);

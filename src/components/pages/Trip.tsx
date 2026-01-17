@@ -21,7 +21,7 @@ function Trip() {
       try {
         const tripResponse = await getSingleTrip(tripId, user.uid);
         setTrip(tripResponse);
-        console.log(tripResponse);
+        // console.log(tripResponse);
       } catch (error) {
         console.error('Error fetching trip:', error);
         setTripState('error');

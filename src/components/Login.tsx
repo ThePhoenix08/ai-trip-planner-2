@@ -23,7 +23,7 @@ const Login: React.FC = () => {
       const { email, password } = formData;
       await signInWithEmailAndPassword(auth, email, password);
       navigate('/app/planner');
-      console.log('User logged in successfully');
+      // console.log('User logged in successfully');
     } catch (error) {
       console.error('Error logging in:', error);
     }

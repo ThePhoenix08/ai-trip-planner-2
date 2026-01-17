@@ -40,7 +40,7 @@ function Planner() {
 
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(formData);
+    // console.log(formData);
     handleGenerateTrip(formData);
   };
 
@@ -58,7 +58,7 @@ function Planner() {
         preferences: formData.preferences,
       };
       const { result: response, tripId } = await generateTrip(user.uid, tripQuery);
-      console.log('response: ', response);
+      // console.log('response: ', response);
 
       const trips = await getAllTrips(user.uid);
       setTrips(trips);
