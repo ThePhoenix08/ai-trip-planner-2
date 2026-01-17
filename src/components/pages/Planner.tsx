@@ -57,7 +57,7 @@ function Planner() {
         budget: formData.budget,
         preferences: formData.preferences,
       };
-      const { result: response, tripId } = await generateTrip(user.uid, tripQuery);
+      const { tripId } = await generateTrip(user.uid, tripQuery);
       // console.log('response: ', response);
 
       const trips = await getAllTrips(user.uid);
